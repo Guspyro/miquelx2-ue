@@ -4,27 +4,31 @@ Group: Miquel Navarro and Miquel Valverde
 
 ## Link Youtube Walkthrough
 
-https://youtu.be/epxnJ2cLzlw
+https://youtu.be/zsVLJkkanxY
 
 
-## Mandatory (4.5p)
+## Obligatorios (4p)
 
-- [x] First person controller for the player (0.5p)
-- [x] Animation BP for the controller (1.0p)
-- [x] HUD for keys & coins (1.0p)
-- [x] AI patrolling with navmesh (0.5p)
-- [x] Ragdoll for AI (1.0p)
-- [x] Game menu, game over & pause menu (0.5p)
+- [x] (1p) Implementar un disparo que funcione a modo de bala física, es decir, sin usar un linetrace . Este proyectil debe hacer que el jugador posea al pawn con el que
+colisione.
+- [x] (1p) Implementar un sistema de guardado que salve el estado del mundo y lo
+cargue. Debe funcionar de forma automática y manual.
+- [x] (0,5p) Sonorizar la práctica con al menos 5 sonidos.
+- [x] (1p) Crear y añadir las partículas para los distintos tipos de disparo.
+- [x] (0,5p) Explicación de la estructura del proyecto en el video a todos los niveles
+(organización de las carpetas, nomenclaturas, arquitectura, uso de git, protocolos,
+etc.).
 
-## Optional (5.5p)
+## Opcionales (6p)
 
-- [x] Behaviour tree for AI (1.5p)
-- [x] Animation BP for AI behaviour (1.0p)
-- [x] Shooting mechanics for FP controller (0.5p)
-- [x] Head bobbing & camera shake (0.5p)
-- [x] HUD for door requierements (0.5p)
-- [x] live HUD for AI's health (0.5p)
-- [x] Good code structure (0.5p)
-- [x] Git (0.5p)
+- [x] (0,5p) Mejorar el HUD con animaciones y efectos visuales avanzados a listar en
+clase.
+- [x] (1p) Creación y uso de al menos 3 postprocesos.
+- [x] (1p) Creación de, al menos, una sequence que haga uso del sistema de eventos.
+- [x] (1p) Creación de un material de disolución que se use en la muerte de las IAs o bien
+en las plataformas.
+- [x] (2p) Refactor y limpieza del proyecto, en otras palabras, organización del proyecto y
+estructuración del código de forma coherente.
+- [x] (0,5p) Correcto uso de Git
 
-> _**Note:**_ Even if we used GitFlow, some merges to develop made by Miquel Valverde did not create a merge commit. The merge was done correctly and the conflicts were solved, it just did not create the extra commit in some cases.
+> _**Note:**_ Even if we used GitFlow, some merges to develop made by Miquel Valverde did not create a merge commit. The merge was done correctly and the conflicts were solved, it just did not create the extra commit in some cases. It only affects the graph look.
